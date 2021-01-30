@@ -1,0 +1,58 @@
+close all; clear all; clc;
+set(0,'defaultTextInterpreter','latex'); %trying to set the default
+set(groot, 'defaultAxesTickLabelInterpreter','latex'); set(groot, 'defaultLegendInterpreter','latex');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   Package that converts hex to RGB colors is in folder 'hex_and_rgb_v1.1.1'.    %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+addpath('hex_and_rgb_v1.1.1')  %% Matlab package that converts hex colors to rgb
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   Online color picker generates array of hex colors.   %%%
+%%%   Paste hex colors here                               %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+hex_color_array = ["8e3b46","e1dd8f","ea9e8d","020122","788aa3"]; % array of N colors
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   Convert hex color array to an RGB color array       %%%%%%
+%%%   Matlab uses an RGB color format                     %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+hex_color_array = reshape(hex_color_array,[],1);  % reshape to Nx1 color array
+hex_color_array = convertStringsToChars(hex_color_array);  % convert string array to character array
+rgb_color_array = hex2rgb(hex_color_array);  % convert hex colors to rgb colors
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   Plot lines using colors from colormap: 'rgb_color_array'  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+figure(); hold on;
+plot([0,1],[0,1],'linewidth',3,'color',rgb_color_array(1,:));
+plot([0,1],[0,2],'linewidth',3,'color',rgb_color_array(2,:));
+plot([0,1],[0,3],'linewidth',3,'color',rgb_color_array(3,:));
+plot([0,1],[0,4],'linewidth',3,'color',rgb_color_array(4,:));
+
+
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   Create a set Matlab colormap using custom hex array   %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+hex_color_array =["432371","4C2A72","553172","5E3873","683F73","714674","7A4D74","835475","8C5B75","956276","9F6976","A86F77","B17677","BA7D78","C38478","CC8B79","D59279","DF997A","E8A07A","F1A77B","FAAE7B"];
+hex_color_array = reshape(hex_color_array,[],1);  % reshape to Nx1 color array
+hex_color_array = convertStringsToChars(hex_color_array);  % convert string array to character array
+rgb_color_array = hex2rgb(hex_color_array);  % convert hex colors to rgb colors
+
+
+
+figure();
+[X,Y] = meshgrid(1:0.01:10,1:0.01:20);
+Z = sin(X) + cos(Y);
+s = surf(X,Y,Z);
+colormap(rgb_color_array);  % set colormap as custom colormap : 'rgb_color_array'
+cb = colorbar(); 
+s.FaceAlpha=0.9;
+s.EdgeColor = 'none';
+
