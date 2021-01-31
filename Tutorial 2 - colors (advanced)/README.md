@@ -8,3 +8,10 @@ This tutorial chronicles how to find, create, and use custom, professional color
 
 Taking palettes from a color palette website, we set our Matlab colors to be these palettes.
 <img src=figures/colors.png width="500">
+
+
+### Step 1 - find a website that generates palettes
+
+Coolers is great because...
+
+[Coolors](https://coolors.co/)
