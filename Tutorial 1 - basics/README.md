@@ -20,3 +20,14 @@ This tutorial covers the following...
 4. How to easily add text and math latex annotations to panel in inkscape.
 
 5. How to easily align and space all content in panel.
+
+6. How to save figure content as an appropriate file size.
+
+
+This tutorial uses the following programs
+
+1. Matlab (or python)
+
+2. Inkscape
+
+3. Latex
