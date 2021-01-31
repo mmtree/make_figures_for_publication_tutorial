@@ -16,7 +16,10 @@ Taking palettes from a color palette website, we set our Matlab colors to be the
 
 Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
 
+### Step 2 - Generate a color palette and save the hex color codes
 
+
+### Step 3 - Insert hex color codes into Matlab and matlab package to convert to a useable format.
 
 
 
