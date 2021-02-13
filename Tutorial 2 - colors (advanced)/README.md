@@ -10,6 +10,8 @@ This tutorial chronicles how to find, create, and use custom, professional color
 
 <img src=figures/Screenshot_coolors_website.png width="600">
 
+
+
 ### Step 2 - Generate a color palette and copy the hex color codes
 
 Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex array and paste into matlab as a string array.
