@@ -2,9 +2,18 @@ close all; clear all; clc;
 set(0,'defaultTextInterpreter','latex'); %trying to set the default
 set(groot, 'defaultAxesTickLabelInterpreter','latex'); set(groot, 'defaultLegendInterpreter','latex');
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%   Package that converts hex to RGB colors is in folder 'hex_and_rgb_v1.1.1'.    %%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                                                                    %%%%%
+%%%   Package that converts hex to RGB colors is in folder 'hex_and_rgb_v1.1.1'.       %%%%%
+%%%                                                                                    %%%%%
+%%%   Citation:                                                                        %%%%%
+%%%   Chad Greene (2021). rgb2hex and hex2rgb                                          %%%%%
+%%%   (https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb), %%%% 
+%%%   MATLAB Central File Exchange. Retrieved February 13, 2021.                       %%%%%
+%%%                                                                                    %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 addpath('hex_and_rgb_v1.1.1')  %% Matlab package that converts hex colors to rgb
 
 

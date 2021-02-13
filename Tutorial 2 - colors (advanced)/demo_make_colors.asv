@@ -3,7 +3,13 @@ set(0,'defaultTextInterpreter','latex'); %trying to set the default
 set(groot, 'defaultAxesTickLabelInterpreter','latex'); set(groot, 'defaultLegendInterpreter','latex');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                                                                 %%%%%
 %%%   Package that converts hex to RGB colors is in folder 'hex_and_rgb_v1.1.1'.    %%%%%
+%%%
+%%%   Chad Greene (2021). rgb2hex and hex2rgb            
+%%%   (https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb),  %%%% 
+%%%   MATLAB Central File Exchange. Retrieved February 13, 2021.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 addpath('hex_and_rgb_v1.1.1')  %% Matlab package that converts hex colors to rgb
 
@@ -29,10 +35,10 @@ rgb_color_array = hex2rgb(hex_color_array);  % convert hex colors to rgb colors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 figure(); hold on;
-plot([0,1],[0,1],'linewidth',3,'color',rgb_color_array(1,:));
-plot([0,1],[0,2],'linewidth',3,'color',rgb_color_array(2,:));
-plot([0,1],[0,3],'linewidth',3,'color',rgb_color_array(3,:));
-plot([0,1],[0,4],'linewidth',3,'color',rgb_color_array(4,:));
+plot([0,1],[0,1],'linewidth',5,'color',rgb_color_array(1,:));
+plot([0,1],[0,2],'linewidth',5,'color',rgb_color_array(2,:));
+plot([0,1],[0,3],'linewidth',5,'color',rgb_color_array(3,:));
+plot([0,1],[0,4],'linewidth',5,'color',rgb_color_array(4,:));
 
 fig = gcf;
 fig.PaperPositionMode = 'auto';
@@ -43,9 +49,9 @@ print(fig,'figures/color_fig1','-dpdf','-r400')
 
 %%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%   Create a set Matlab colormap using custom hex array   %%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   Create and set Matlab colormap using custom hex array   %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 hex_color_array =["432371","4C2A72","553172","5E3873","683F73","714674","7A4D74","835475","8C5B75","956276","9F6976","A86F77","B17677","BA7D78","C38478","CC8B79","D59279","DF997A","E8A07A","F1A77B","FAAE7B"];
 hex_color_array = reshape(hex_color_array,[],1);  % reshape to Nx1 color array
 hex_color_array = convertStringsToChars(hex_color_array);  % convert string array to character array
@@ -62,3 +68,8 @@ cb = colorbar();
 s.FaceAlpha=0.9;
 s.EdgeColor = 'none';
 
+fig = gcf;
+fig.PaperPositionMode = 'auto';
+fig_pos = fig.PaperPosition;
+fig.PaperSize = [fig_pos(3) fig_pos(4)];
+print(fig,'figures/color_fig2','-dpdf','-r400')

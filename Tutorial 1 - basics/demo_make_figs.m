@@ -4,7 +4,7 @@ close all; clear all; clc;
 set(0,'defaultTextInterpreter','latex'); % make font latex
 set(groot, 'defaultAxesTickLabelInterpreter','latex'); % make font latex
 set(groot, 'defaultLegendInterpreter','latex'); % make font latex
-set(0,'defaultAxesFontSize',12); % make fontsize 11
+set(0,'defaultAxesFontSize',12); % make fontsize 12
 set(0,'DefaultLineLineWidth',1); % make linewidth = 1
 
 %% get colorsets
@@ -48,5 +48,3 @@ fig.PaperPositionMode = 'auto';
 fig_pos = fig.PaperPosition;
 fig.PaperSize = [fig_pos(3) fig_pos(4)];
 print(fig,'figures/demo_fig2','-dpdf','-r400')
-
-%% Figure 3: demo_fig3

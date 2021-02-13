@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.13)  13 JAN 2021 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.13)  10 FEB 2021 12:18
 entering extended mode
 **./demo_paper.tex
 (demo_paper.tex
@@ -355,8 +355,8 @@ Package pdftex.def Info: figures/demo_panel.pdf  used on input line 23.
 es/demo_panel.pdf>] [3] (demo_paper.aux) ) 
 Here is how much of TeX's memory you used:
  12617 strings out of 492482
- 235480 string characters out of 3131025
- 542178 words of memory out of 3000000
+ 235660 string characters out of 3131025
+ 542179 words of memory out of 3000000
  16931 multiletter control sequences out of 15000+200000
  542027 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -366,7 +366,7 @@ pe1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on demo_paper.pdf (3 pages, 178389 bytes).
+Output written on demo_paper.pdf (3 pages, 178364 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
