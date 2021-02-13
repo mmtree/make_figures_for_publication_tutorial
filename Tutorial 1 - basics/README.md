@@ -39,10 +39,11 @@ This tutorial uses the following programs
 
 Run the script
 
-  demo_make_figs.m
+    demo_make_figs.m
   
 which creates subfigures 
-  demo_fig1.pdf
-  demo_fig2.pdf
+
+    demo_fig1.pdf
+    demo_fig2.pdf
 
 ## Step 2 &ndash; 
