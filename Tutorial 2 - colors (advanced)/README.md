@@ -6,11 +6,14 @@ This tutorial chronicles how to find, create, and use custom, professional color
 
 ### Step 1 - find a website that generates palettes
 
-[Coolors](https://coolors.co/) is great because it lets you export hex color codes.  Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
+[Coolors](https://coolors.co/) is great because it lets you export hex color codes. It also lets you view palettes through different colorblind filters.  Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
 
 <img src=figures/Screenshot_coolors_website.png width="600">
 
 ### Step 2 - Generate a color palette and copy the hex color codes
+
+Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex array and paste into matlab as a string array.
+
 <img src=figures/gradient_array_export.png width="500">
 
 
