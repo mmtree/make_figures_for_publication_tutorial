@@ -7,7 +7,7 @@ This tutorial chronicles how to find, create, and use custom, professional color
 
 <br/>
 
-### Step 1 - find a website that generates palettes
+## Step 1 - find a website that generates palettes
 
 [Coolors](https://coolors.co/) is great because it lets you export hex color codes. It also lets you view palettes through different colorblind filters.  Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
 
@@ -16,7 +16,7 @@ This tutorial chronicles how to find, create, and use custom, professional color
 
 <br/>
 
-### Step 2 - Generate a color palette and copy the hex color codes
+## Step 2 - Generate a color palette and copy the hex color codes
 
 Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex array and paste into matlab as a string array.
 
@@ -24,13 +24,13 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 <br/>
 
-### Step 3 - Paste hex color codes into Matlab
+## Step 3 - Paste hex color codes into Matlab
 
     hex_color_array =["432371","4C2A72","553172","5E3873","683F73","714674","7A4D74","835475","8C5B75","956276","9F6976","A86F77","B17677","BA7D78","C38478","CC8B79","D59279","DF997A","E8A07A","F1A77B","FAAE7B"];
 
 <br/>
 
-### Step 4- use Matlab package [hex2rgb](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb) to convert hex array to an RGB array
+## Step 4- use Matlab package [hex2rgb](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb) to convert hex array to an RGB array
   
     hex_color_array = reshape(hex_color_array,[],1);  % reshape to Nx1 color array
     hex_color_array = convertStringsToChars(hex_color_array);  % convert string array to character array
@@ -38,7 +38,7 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 <br/>
 
-### Step 5 - use RGB color array for colormap or color palette
+## Step 5 - use RGB color array for colormap or color palette
 
     s = surf(X,Y,Z);
     colormap(rgb_color_array); 
