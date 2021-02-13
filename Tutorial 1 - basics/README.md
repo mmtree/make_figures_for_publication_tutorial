@@ -31,3 +31,18 @@ This tutorial uses the following programs
 2. [Inkscape](https://inkscape.org/)
 
 3. [Latex](https://www.latex-project.org/)
+
+
+<br/>
+
+## Step 1 &ndash; Create subfigure in Matlab
+
+Run the script
+
+  demo_make_figs.m
+  
+which creates subfigures 
+  demo_fig1.pdf
+  demo_fig2.pdf
+
+## Step 2 &ndash; 
