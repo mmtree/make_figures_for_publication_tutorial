@@ -5,7 +5,7 @@ This tutorial chronicles how to find, create, and use custom, professional color
 
 <img src=figures/colors.png width="500">
 
-
+<br/>
 
 ### Step 1 - find a website that generates palettes
 
