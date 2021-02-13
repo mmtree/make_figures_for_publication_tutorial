@@ -1,4 +1,4 @@
-# make_figures_for_publication_demo
+# Make Figures for Publication Tutorial
 This repository contains demos and templates for making figures for academic publications and presentations.
 
 
@@ -15,3 +15,4 @@ The second tutorial covers how to find and use a professional color palette in y
 
 
 ## Tutorial 3 - presentation animations
+(in progress)

@@ -12,7 +12,7 @@ Taking palettes from a color palette website, we set our Matlab colors to be the
 
 ### Step 1 - find a website that generates palettes
 
-[Coolors](https://coolors.co/) is great because...
+[Coolors](https://coolors.co/) is great because it lets you export hex color codes.
 
 Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
 
