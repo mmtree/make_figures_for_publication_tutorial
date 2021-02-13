@@ -1,4 +1,4 @@
-# make_figures_for_publication_demo
+# Make Figures for Publication demo
 This repository contains demos and templates for making figures for academic publications and presentations.
 
 
