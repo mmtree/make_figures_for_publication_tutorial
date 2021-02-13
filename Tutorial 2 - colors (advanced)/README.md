@@ -35,8 +35,20 @@ Other color palette generating websites include [COLOURLovers](https://www.colou
     rgb_color_array = hex2rgb(hex_color_array);
 
 
-### Step 5 - use RGB color array for colormap
+### Step 5 - use RGB color array for colormap or color palette
+
+    s = surf(X,Y,Z);
+    colormap(rgb_color_array); 
+    
+<img src=figures/gradient_array_export.png width="500">
 
 
+    figure(); hold on;
+    plot([0,1],[0,1],'linewidth',5,'color',rgb_color_array(1,:));
+    plot([0,1],[0,2],'linewidth',5,'color',rgb_color_array(2,:));
+    plot([0,1],[0,3],'linewidth',5,'color',rgb_color_array(3,:));
+    plot([0,1],[0,4],'linewidth',5,'color',rgb_color_array(4,:));
+    
+<img src=figures/gradient_array_export.png width="500">
 
 
