@@ -19,11 +19,11 @@ Taking palettes from a color palette website, we set our Matlab colors to be the
 Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
 
 
-### Step 2 - Generate a color palette and save the hex color codes
+### Step 2 - Generate a color palette and copy the hex color codes
 <img src=figures/gradient_array_export.png width="500">
 
 
-### Step 3 - Copy/Paste hex color codes into Matlab
+### Step 3 - Paste hex color codes into Matlab
 
     hex_color_array =["432371","4C2A72","553172","5E3873","683F73","714674","7A4D74","835475","8C5B75","956276","9F6976","A86F77","B17677","BA7D78","C38478","CC8B79","D59279","DF997A","E8A07A","F1A77B","FAAE7B"];
 
