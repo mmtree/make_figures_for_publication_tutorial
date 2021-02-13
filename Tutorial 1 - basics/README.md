@@ -1,7 +1,7 @@
 
 # Tutorial 1 &ndash; basics
 
-This tutorial chronicles the step-by-step construction of the template figure seen below. We start by generating data and subfigures in Matlab (or Python), compose subfigures and add annotations in [Inkscape](https://inkscape.org/) and end with a single pdf (or .eps, .png, other prefered format ...) of the entire panel (a, b, c) which can be easily inserted into a latex document. 
+This tutorial chronicles the step-by-step construction of the template figure seen below. We start by generating data and subfigures in Matlab (or Python) then compose subfigures and add annotations in [Inkscape](https://inkscape.org/) and end with a single pdf (or .eps, .png, other prefered format ...) of the entire panel (a, b, c) which can be easily inserted into a latex document. 
 
 
 
