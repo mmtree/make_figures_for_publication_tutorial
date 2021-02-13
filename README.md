@@ -15,3 +15,4 @@ The second tutorial covers how to find and use a professional color palette in y
 
 
 ## Tutorial 3 - presentation animations
+(in progress)
