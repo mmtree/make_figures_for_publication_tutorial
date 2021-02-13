@@ -52,8 +52,8 @@ stored in the folder Tutorial 1 - basics/figures.
 
 ## Step 2 &ndash; Import subfigures into Inkscape and create figure panel
 
-Inkscape tutorial in the file
+Inkscape tutorial is in the file
     
     demo_panel.svg
     
- covers how to import .pdfs into Inkscape and create a figure panel.
+stored in the folder Tutorial 1 - basics/figures. This file must be opened using Inkscape and covers how to import .pdfs into Inkscape and create a figure panel.
