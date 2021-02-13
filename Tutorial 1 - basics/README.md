@@ -35,7 +35,7 @@ This tutorial uses the following programs
 
 <br/>
 
-## Step 1 &ndash; Create subfigure in Matlab
+## Step 1 &ndash; Create subfigures in Matlab
 
 Run the script
 
@@ -45,5 +45,13 @@ which creates subfigures
 
     demo_fig1.pdf
     demo_fig2.pdf
+    
+stored in the folder Tutorial 1 - basics/figures.
 
-## Step 2 &ndash; 
+<br/>
+
+## Step 2 &ndash; Import subfigures into Inkscape and create figure panel
+
+    Inkscape tutorial in
+    
+    demo_panel.svg
