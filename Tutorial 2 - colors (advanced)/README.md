@@ -2,7 +2,7 @@
 
 This tutorial chronicles how to find, create, and use custom, professional color palettes in Matlab and python figures instead of using the limited selection of color palettes offered by Matlab.
 
-<img src=figures/Screenshot_coolors_website.png width="600">
+
 
 
 
@@ -14,7 +14,10 @@ Taking palettes from a color palette website, we set our Matlab colors to be the
 
 [Coolors](https://coolors.co/) is great because it lets you export hex color codes.
 
+<img src=figures/Screenshot_coolors_website.png width="600">
+
 Other color palette generating websites include [COLOURLovers](https://www.colourlovers.com/palettes), [Colordot](https://color.hailpixel.com/) and [Cohesive Colors](https://javier.xyz/cohesive-colors/).
+
 
 ### Step 2 - Generate a color palette and save the hex color codes
 <img src=figures/gradient_array_export.png width="500">
