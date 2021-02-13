@@ -40,7 +40,7 @@ Other color palette generating websites include [COLOURLovers](https://www.colou
     s = surf(X,Y,Z);
     colormap(rgb_color_array); 
     
-<img src=figures/gradient_array_export.png width="500">
+<img src=figures/color_fig2.png width="500">
 
 
     figure(); hold on;
@@ -49,6 +49,6 @@ Other color palette generating websites include [COLOURLovers](https://www.colou
     plot([0,1],[0,3],'linewidth',5,'color',rgb_color_array(3,:));
     plot([0,1],[0,4],'linewidth',5,'color',rgb_color_array(4,:));
     
-<img src=figures/gradient_array_export.png width="500">
+<img src=figures/color_fig1.png width="500">
 
 
