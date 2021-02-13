@@ -14,6 +14,7 @@ This tutorial chronicles how to find, create, and use custom, professional color
 <img src=figures/Screenshot_coolors_website.png width="600">
 
 
+<br/>
 
 ### Step 2 - Generate a color palette and copy the hex color codes
 
@@ -21,11 +22,13 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 <img src=figures/gradient_array_export.png width="500">
 
+<br/>
 
 ### Step 3 - Paste hex color codes into Matlab
 
     hex_color_array =["432371","4C2A72","553172","5E3873","683F73","714674","7A4D74","835475","8C5B75","956276","9F6976","A86F77","B17677","BA7D78","C38478","CC8B79","D59279","DF997A","E8A07A","F1A77B","FAAE7B"];
 
+<br/>
 
 ### Step 4- use Matlab package [hex2rgb](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb) to convert hex array to an RGB array
   
@@ -33,6 +36,7 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
     hex_color_array = convertStringsToChars(hex_color_array);  % convert string array to character array
     rgb_color_array = hex2rgb(hex_color_array);
 
+<br/>
 
 ### Step 5 - use RGB color array for colormap or color palette
 
@@ -40,7 +44,6 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
     colormap(rgb_color_array); 
     
 <img src=figures/color_fig2.png width="500">
-
 
     figure(); hold on;
     plot([0,1],[0,1],'linewidth',5,'color',rgb_color_array(1,:));
