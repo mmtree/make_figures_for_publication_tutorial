@@ -68,7 +68,7 @@ stored in the folder Tutorial 1 - basics/figures. This file must be opened using
 
 ### Inkscape step 1 &ndash; import pdfs
 
-<img src="figures/pngs_for_readme/step1_make_base_layers.png" width="500">
+<img src="figures/pngs_for_readme/step1_make_base_layer.png" width="500">
 
 <br/>
 
