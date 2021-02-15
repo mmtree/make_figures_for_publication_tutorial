@@ -124,11 +124,46 @@ There are several other options for adding latex objects to Inkscape.
 
 ### Inkscape step 3 &ndash; Add arrows and shapes
 
+Next we want to add arrow and shapes and move them all to "Layer 2".
+
+**Create horizontal or vertial line:** Hold down the "Ctrl" key as you draw your straight line, this will force it to be horizontal or vertical.
+
 <img src="figures/pngs_for_readme/step3_add_arrows.png" width="800">
 
 <br/>
 
-### Inkscape step 4 &ndash; Change colors
+### Inkscape step 4 &ndash; Change colors and line styles
+
+We can edit any of the objects we have just created by selecting the object and then clicking on the "Fill and Stroke" tab.
+
+**Line thickness:** 
+    
+    Fill and Stroke -> Stroke style -> Width
+
+**Make dashed lines:**
+    
+    Fill and Stroke -> Stroke style -> Dashes
+
+**Add arrow to end of line:** 
+    
+    Fill and Stroke -> Stroke style -> Markers
+    
+**Change transparency:** 
+
+    Fill and Stroke -> Opacity (%)
+
+**Blur:**
+    
+    Fill and Stroke -> Blur (%)
+    
+**Change color:**
+ 
+    Fill and Stroke -> Stroke paint -> "pick colors from image"
+
+**Change box fill and color:**
+    
+    Fill and Stroke -> Fill
+
 
 <img src="figures/pngs_for_readme/step4_change_colors.png" width="800">
 
