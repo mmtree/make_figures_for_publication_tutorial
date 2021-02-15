@@ -75,7 +75,7 @@ stored in the folder Tutorial 1 - basics/figures. This file must be opened using
 
 ### Inkscape step 2 &ndash; Make annotation layer
 
-<img src="figures/pngs_for_readme/step2_make_annotaion_layer.png" width="500">
+<img src="figures/pngs_for_readme/step2_make_annotation_layer.png" width="500">
 
 <br/>
 
