@@ -70,7 +70,7 @@ Inkscape has many features. The most important tools on the left are "Align and 
 
 ### Inkscape step 1 &ndash; import pdfs
 
-**Import images:** First we import the pdf subfigures generated using Matlab.
+**Import images:** First we import the pdf subfigures generated using Matlab. Make sure the figures you are importing do not have too large of a file size. Working with large image files in Inkscape will make Inkscape very slow and even crash. If you have large image files, try making the files smaller before importing. One way to make files smaller is to plot few points when generating the figure in Matlab.
 
     File -> Import -> demo_fig1.pdf
 
@@ -90,6 +90,23 @@ Inkscape has many features. The most important tools on the left are "Align and 
 
 
 ### Inkscape step 2 &ndash; Make annotation layer
+
+All text and other annotations should be added to a layer above the base layer so that the annotations will always appear on top of the images.
+
+**Create new layer:** First we must create a new layer by clicking on the layers tab and adding a layer above the current layer, naming it "Layer 2"
+    
+    Layer -> Add Layer
+    
+**Add annotations to new layer:** We can add anything we want to Layer 2 by right clicking on an object and changing the layer it is in
+
+    Right click on annotation -> Move to Layer.. -> Layer 2
+    
+
+**Latex equation annotations:** We can add Latex equation objects by going to 
+
+    Extensions -> Render -> Mathematics -> Latex(pdf)
+    
+This blog post [here](http://blog.jamiejquinn.com/rendering-latex-in-inkscape) covers adding latex equations in more detail.
 
 <img src="figures/pngs_for_readme/step2_make_annotation_layer.png" width="800">
 
