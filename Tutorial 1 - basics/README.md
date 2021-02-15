@@ -5,7 +5,7 @@ This tutorial chronicles the step-by-step construction of the template figure se
 
 
 
-<img src="figures/pngs_for_readme/demo_panel.png" width="800">
+<img src="figures/pngs_for_readme/demo_panel.png" width="700">
 
 
 
@@ -62,11 +62,27 @@ stored in the folder Tutorial 1 - basics/figures. This file must be opened using
 
 ### Open Inkscape
 
-<img src="figures/pngs_for_readme/open_inkscape.png" width="800">
+Inkscape has many features. The most important tools on the left are "Align and Distribute", "Fill and Stroke", and "Layers". The most important tools on the left are "Select", "Create rectangles and squares", "Create circles, ellipses, and arcs", "Draw Bezier curves and straight lines", and "Create and edit text object". The most important tabs at the top are "Object" and "Extensions". We will cover what each of these tools are used for below.
+
+<img src="figures/pngs_for_readme/open_inkscape.png" width="900">
 
 <br/>
 
 ### Inkscape step 1 &ndash; import pdfs
+
+**Import images:** First we import the pdf subfigures generated using Matlab.
+
+    File -> Import -> demo_fig1.pdf
+
+**Add images to base layer:** We can add all images to the first layer and then create an additional layer above the base layer for which to add annotations.
+    
+    right click demo_fig1.pdf, Move to layer ->Layer 1
+    
+**Crop image:** If the pdf needs to be cropped we can do this by drawing a box around the part of the image that we want to keep, selecting both objects, and then clipping the set.
+
+    Draw a box on top of image
+    Select both box and image
+    Object-> Clip -> Set
 
 <img src="figures/pngs_for_readme/step1_make_base_layer.png" width="800">
 
