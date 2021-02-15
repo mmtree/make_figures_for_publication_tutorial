@@ -106,7 +106,17 @@ All text and other annotations should be added to a layer above the base layer s
 
     Extensions -> Render -> Mathematics -> Latex(pdf)
     
-This blog post [here](http://blog.jamiejquinn.com/rendering-latex-in-inkscape) covers adding latex equations in more detail.
+This blog post [here](http://blog.jamiejquinn.com/rendering-latex-in-inkscape) covers adding latex equations in more detail. 
+
+There are several other options for adding latex objects to Inkscape. 
+
+[TexText - Re-editable LaTeX graphics for Inkscape](https://textext.github.io/textext/index.html) is a Python extension for Inkscape that allows you to add and re-edit LaTeX generated SVG elements to your drawing. 
+
+[LaTeXText: Render LaTeX in Inkscape](https://inkscape.org/~seebk/%E2%98%85latextext-render-latex-in-inkscape) is a different Inkscape extesion that searches all text elements in a document and renders them with PdfLatex.
+
+
+
+
 
 <img src="figures/pngs_for_readme/step2_make_annotation_layer.png" width="800">
 
