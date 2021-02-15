@@ -5,7 +5,7 @@ This tutorial chronicles the step-by-step construction of the template figure se
 
 
 
-<img src="figures/demo_panel.png" width="500">
+<img src="figures/pngs_for_readme/demo_panel.png" width="500">
 
 
 
@@ -50,10 +50,53 @@ stored in the folder Tutorial 1 - basics/figures.
 
 <br/>
 
-## Step 2 &ndash; Import subfigures into Inkscape and create figure panel
+## Step 2 &ndash; Create figure panel in Inkscape
 
 Inkscape tutorial is in the file
     
     demo_panel.svg
     
 stored in the folder Tutorial 1 - basics/figures. This file must be opened using Inkscape and covers how to import .pdfs into Inkscape and create a figure panel.
+
+<br/>
+
+### Open Inkscape
+
+<img src="figures/pngs_for_readme/open_inkscape.png" width="500">
+
+<br/>
+
+### Inkscape step 1 &ndash; import pdfs
+
+<img src="figures/pngs_for_readme/step1_make_base_layers.png" width="500">
+
+<br/>
+
+### Inkscape step 2 &ndash; Make annotation layer
+
+<img src="figures/pngs_for_readme/step2_make_annotaion_layer.png" width="500">
+
+<br/>
+
+### Inkscape step 3 &ndash; Add arrows and shapes
+
+<img src="figures/pngs_for_readme/step3_add_arrows.png" width="500">
+
+<br/>
+
+### Inkscape step 4 &ndash; Change colors
+
+<img src="figures/pngs_for_readme/step4_change_colors.png" width="500">
+
+<br/>
+
+### Inkscape step 5 &ndash; Align everything
+
+<img src="figures/pngs_for_readme/step5_align.png" width="500">
+
+<br/>
+
+### Inkscape step 6 &ndash; Create page around panel
+
+<img src="figures/pngs_for_readme/step6_create_page.png" width="500">
+
