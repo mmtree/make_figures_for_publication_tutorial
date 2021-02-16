@@ -225,5 +225,5 @@ Insert the figure into the tex document with the commands
         \label{fig:demo_panel}
     \end{figure}
     
-<img src="figures/pngs_for_readme/finallatex.png" width="700">
+<img src="figures/pngs_for_readme/final_latex.png" width="700">
 
