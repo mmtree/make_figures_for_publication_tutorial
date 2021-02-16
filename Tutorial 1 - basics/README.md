@@ -5,7 +5,7 @@ This tutorial chronicles the step-by-step construction of the template figure se
 
 
 
-<img src="figures/pngs_for_readme/demo_panel.png" width="700">
+<img src="figures/pngs_for_readme/demo_panel.png" width="600">
 
 
 
@@ -171,11 +171,33 @@ We can edit any of the objects we have just created by selecting the object and 
 
 ### Inkscape step 5 &ndash; Align everything
 
+Next we can align all the objects that should be aligned horizontally and vertically. Select two or more objects that you want aligned and then select
+
+    Align and Distribute -> Align -> "Center on horizontal axis"
+    
+Objects will be aligned relative to the last object selected. You can change what the alignment is relative to by going to 
+    
+    Align and Distribute -> Align -> Relative to: -> "First selected"
+    
+
 <img src="figures/pngs_for_readme/step5_align.png" width="800">
 
 <br/>
 
 ### Inkscape step 6 &ndash; Create page around panel
+
+Lastly, we want to make the Inkscape page fit exacty around the panel we have just created. We can do this by selecting all the objects you wish to include in the final figure and then clicking
+
+    Edit -> Resize Page to Selection
+    
+The Inkscape page will now exactly encapsulate your final figure. Whatever is in the Inkscape page is what gets saved in the pdf.
+
+Save the page as a pdf by going to 
+
+    File -> Save As
+    
+and save the type as either a .pdf or a .eps.
+    
 
 <img src="figures/pngs_for_readme/step6_create_page.png" width="800">
 
