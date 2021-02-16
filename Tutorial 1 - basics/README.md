@@ -5,7 +5,7 @@ This tutorial chronicles the step-by-step construction of the template figure se
 
 
 
-<img src="figures/pngs_for_readme/demo_panel.png" width="500">
+<img src="figures/pngs_for_readme/demo_panel.png" width="600">
 
 
 
@@ -62,41 +62,165 @@ stored in the folder Tutorial 1 - basics/figures. This file must be opened using
 
 ### Open Inkscape
 
-<img src="figures/pngs_for_readme/open_inkscape.png" width="500">
+Inkscape has many features. The most important tools on the left are "Align and Distribute", "Fill and Stroke", and "Layers". The most important tools on the left are "Select", "Create rectangles and squares", "Create circles, ellipses, and arcs", "Draw Bezier curves and straight lines", and "Create and edit text object". The most important tabs at the top are "Object" and "Extensions". We will cover what each of these tools are used for below.
+
+<img src="figures/pngs_for_readme/open_inkscape.png" width="900">
 
 <br/>
 
 ### Inkscape step 1 &ndash; import pdfs
 
-<img src="figures/pngs_for_readme/step1_make_base_layers.png" width="500">
+**Import images:** First we import the pdf subfigures generated using Matlab. Make sure the figures you are importing do not have too large of a file size. Working with large image files in Inkscape will make Inkscape very slow and even crash. If you have large image files, try making the files smaller before importing. One way to make files smaller is to plot few points when generating the figure in Matlab.
+
+    File -> Import -> demo_fig1.pdf
+
+**Add images to base layer:** We can add all images to the first layer and then create an additional layer above the base layer for which to add annotations.
+    
+    right click demo_fig1.pdf, Move to layer ->Layer 1
+    
+**Crop image:** If the pdf needs to be cropped we can do this by drawing a box around the part of the image that we want to keep, selecting both objects, and then clipping the set.
+
+    Draw a box on top of image
+    Select both box and image
+    Object-> Clip -> Set
+
+<img src="figures/pngs_for_readme/step1_make_base_layer.png" width="800">
 
 <br/>
 
+
 ### Inkscape step 2 &ndash; Make annotation layer
 
-<img src="figures/pngs_for_readme/step2_make_annotaion_layer.png" width="500">
+All text and other annotations should be added to a layer above the base layer so that the annotations will always appear on top of the images.
+
+**Create new layer:** First we must create a new layer by clicking on the layers tab and adding a layer above the current layer, naming it "Layer 2"
+    
+    Layer -> Add Layer
+    
+**Add annotations to new layer:** We can add anything we want to Layer 2 by right clicking on an object and changing the layer it is in
+
+    Right click on annotation -> Move to Layer.. -> Layer 2
+    
+
+**Latex equation annotations:** We can add Latex equation objects by going to 
+
+    Extensions -> Render -> Mathematics -> Latex(pdf)
+    
+This blog post [here](http://blog.jamiejquinn.com/rendering-latex-in-inkscape) covers adding latex equations in more detail. 
+
+There are several other options for adding latex objects to Inkscape. 
+
+[TexText - Re-editable LaTeX graphics for Inkscape](https://textext.github.io/textext/index.html) is a Python extension for Inkscape that allows you to add and re-edit LaTeX generated SVG elements to your drawing. 
+
+[LaTeXText: Render LaTeX in Inkscape](https://inkscape.org/~seebk/%E2%98%85latextext-render-latex-in-inkscape) is a different Inkscape extesion that searches all text elements in a document and renders them with PdfLatex.
+
+
+
+
+
+<img src="figures/pngs_for_readme/step2_make_annotation_layer.png" width="800">
 
 <br/>
 
 ### Inkscape step 3 &ndash; Add arrows and shapes
 
-<img src="figures/pngs_for_readme/step3_add_arrows.png" width="500">
+Next we want to add arrow and shapes and move them all to "Layer 2".
+
+**Create horizontal or vertial line:** Hold down the "Ctrl" key as you draw your straight line, this will force it to be horizontal or vertical.
+
+<img src="figures/pngs_for_readme/step3_add_arrows.png" width="800">
 
 <br/>
 
-### Inkscape step 4 &ndash; Change colors
+### Inkscape step 4 &ndash; Change colors and line styles
 
-<img src="figures/pngs_for_readme/step4_change_colors.png" width="500">
+We can edit any of the objects we have just created by selecting the object and then clicking on the "Fill and Stroke" tab.
+
+**Line thickness:** 
+    
+    Fill and Stroke -> Stroke style -> Width
+
+**Make dashed lines:**
+    
+    Fill and Stroke -> Stroke style -> Dashes
+
+**Add arrow to end of line:** 
+    
+    Fill and Stroke -> Stroke style -> Markers
+    
+**Change transparency:** 
+
+    Fill and Stroke -> Opacity (%)
+
+**Blur:**
+    
+    Fill and Stroke -> Blur (%)
+    
+**Change color:**
+ 
+    Fill and Stroke -> Stroke paint -> "pick colors from image"
+
+**Change box fill and color:**
+    
+    Fill and Stroke -> Fill
+
+
+<img src="figures/pngs_for_readme/step4_change_colors.png" width="800">
 
 <br/>
 
 ### Inkscape step 5 &ndash; Align everything
 
-<img src="figures/pngs_for_readme/step5_align.png" width="500">
+Next we can align all the objects that should be aligned horizontally and vertically. Select two or more objects that you want aligned and then select
+
+    Align and Distribute -> Align -> "Center on horizontal axis"
+    
+Objects will be aligned relative to the last object selected. You can change what the alignment is relative to by going to 
+    
+    Align and Distribute -> Align -> Relative to: -> "First selected"
+    
+
+<img src="figures/pngs_for_readme/step5_align.png" width="800">
 
 <br/>
 
 ### Inkscape step 6 &ndash; Create page around panel
 
-<img src="figures/pngs_for_readme/step6_create_page.png" width="500">
+**Draw page around final figure:** Lastly, we want to make the Inkscape page fit exacty around the panel we have just created. We can do this by selecting all the objects you wish to include in the final figure and then clicking
 
+    Edit -> Resize Page to Selection
+    
+The Inkscape page will now exactly encapsulate your final figure. Whatever is in the Inkscape page is what gets saved in the pdf.
+
+**Save final figure:** Save the page as a pdf by going to 
+
+    File -> Save As -> demo_panel.pdf
+    
+save the type as either a .pdf or a .eps.
+    
+
+<img src="figures/pngs_for_readme/step6_create_page.png" width="800">
+
+
+This final figure "demo_panel.pdf" can now be inserted into a latex document.
+
+## Step 3 &ndash; Place final figure into Latex document
+
+All that is left now is to call on the figure within the Latex document.  Open the .tex file
+
+    demo_paper.tex
+    
+  Include the following package in the Latex document preamble
+  
+    \usepackage{graphicx}
+    
+Insert the figure into the tex document with the commands
+
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1.0\linewidth]{figures/demo_panel.pdf}
+        \caption{(a) explantion (b) explanation}
+        \label{fig:demo_panel}
+    \end{figure}
+    
+    
