@@ -204,6 +204,8 @@ save the type as either a .pdf or a .eps.
 
 This final figure "demo_panel.pdf" can now be inserted into a latex document.
 
+<br/>
+
 ## Step 3 &ndash; Place final figure into Latex document
 
 All that is left now is to call on the figure within the Latex document.  Open the .tex file
@@ -223,4 +225,4 @@ Insert the figure into the tex document with the commands
         \label{fig:demo_panel}
     \end{figure}
     
-    
+    <img src="figures/pngs_for_readme/final_latex.png" width="800">
