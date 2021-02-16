@@ -186,13 +186,13 @@ Objects will be aligned relative to the last object selected. You can change wha
 
 ### Inkscape step 6 &ndash; Create page around panel
 
-Lastly, we want to make the Inkscape page fit exacty around the panel we have just created. We can do this by selecting all the objects you wish to include in the final figure and then clicking
+**Draw page around final figure:** Lastly, we want to make the Inkscape page fit exacty around the panel we have just created. We can do this by selecting all the objects you wish to include in the final figure and then clicking
 
     Edit -> Resize Page to Selection
     
 The Inkscape page will now exactly encapsulate your final figure. Whatever is in the Inkscape page is what gets saved in the pdf.
 
-Save the page as a pdf by going to 
+**Save final figure:** Save the page as a pdf by going to 
 
     File -> Save As
     
