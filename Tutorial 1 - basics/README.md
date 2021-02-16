@@ -194,10 +194,33 @@ The Inkscape page will now exactly encapsulate your final figure. Whatever is in
 
 **Save final figure:** Save the page as a pdf by going to 
 
-    File -> Save As
+    File -> Save As -> demo_panel.pdf
     
-and save the type as either a .pdf or a .eps.
+save the type as either a .pdf or a .eps.
     
 
 <img src="figures/pngs_for_readme/step6_create_page.png" width="800">
 
+
+This final figure "demo_panel.pdf" can now be inserted into a latex document.
+
+## Step 3 &ndash; Place final figure into Latex document
+
+All that is left now is to call on the figure within the Latex document.  Open the .tex file
+
+    demo_paper.tex
+    
+  Include the following package in the Latex document preamble
+  
+    \usepackage{graphicx}
+    
+Insert the figure into the tex document with the commands
+
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1.0\linewidth]{figures/demo_panel.pdf}
+        \caption{(a) explantion (b) explanation}
+        \label{fig:demo_panel}
+    \end{figure}
+    
+    
