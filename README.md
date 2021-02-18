@@ -10,7 +10,7 @@ An overview of figure preparation is contained in
 ## [Tutorial 1 &ndash; basics](Tutorial_1_basics/README.md)
 The first tutorial details step-by-step instructions for creating this template figure using Matlab and Inkscape.
 
-<img src="Tutorial 1 - basics/figures/pngs_for_readme/demo_panel.png" width="500">
+<img src="Tutorial_1_basics/figures/pngs_for_readme/demo_panel.png" width="500">
 
 <br/>
 
@@ -18,7 +18,7 @@ The first tutorial details step-by-step instructions for creating this template 
 
 The second tutorial covers how to find and use professional color palettes in you figures instead of a Matlab colormap.
 
-<img src="Tutorial 2 - colors (advanced)/figures/pngs_for_readme/colors.png" width="500">
+<img src="Tutorial_2_colors_(advanced)/figures/pngs_for_readme/colors.png" width="500">
 
 <br/>
 
