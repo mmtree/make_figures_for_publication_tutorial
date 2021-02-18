@@ -7,7 +7,7 @@ An overview of figure preparation is contained in
 
 <br/>
 
-## Tutorial 1 &ndash; basics
+## [Tutorial 1 &ndash; basics](Tutorial 1 - basics/README.md)
 The first tutorial details step-by-step instructions for creating this template figure using Matlab and Inkscape.
 
 <img src="Tutorial 1 - basics/figures/pngs_for_readme/demo_panel.png" width="500">
