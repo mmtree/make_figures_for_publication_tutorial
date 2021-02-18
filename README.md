@@ -22,5 +22,5 @@ The second tutorial covers how to find and use professional color palettes in yo
 
 <br/>
 
-## Tutorial 3 &ndash; presentation animations
+## [Tutorial 3 &ndash; presentation animations](Tutorial_3_presentation_animations/README.md)
 (in progress)
