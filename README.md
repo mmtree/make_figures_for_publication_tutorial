@@ -1,5 +1,5 @@
 # Make Figures for Publication Tutorial
-This repository contains tutorials for making figures for academic publications and presentations. The first tutorial covers generating subplots in [Matlab](https://www.mathworks.com/products/matlab.html) and then composing the subplots with annotations in [Inkscape](https://inkscape.org/).
+This repository contains tutorials for making figures for academic publications and presentations. The first tutorial covers generating subplots in [Matlab](https://www.mathworks.com/products/matlab.html) or [Python](https://www.python.org/) and then composing the subplots with annotations in [Inkscape](https://inkscape.org/).
 
 An overview of figure preparation is contained in 
 
@@ -8,7 +8,7 @@ An overview of figure preparation is contained in
 <br/>
 
 ## [Tutorial 1 &ndash; basics](Tutorial_1_basics/)
-The first tutorial details step-by-step instructions for creating this template figure using Matlab and Inkscape.
+The first tutorial details step-by-step instructions for creating this template figure using Matlab or Python and then Inkscape.
 
 <img src="Tutorial_1_basics/figures/pngs_for_readme/demo_panel.png" width="500">
 
