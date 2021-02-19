@@ -49,7 +49,7 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 <br/>
 
-### use RGB color array for colormap or color palette
+### Use RGB color array for colormap or color palette
 
     s = surf(X,Y,Z);
     colormap(rgb_color_array); 
@@ -74,7 +74,7 @@ Individual hex colors can be specified in matplotlib plots. However, we must twe
     for i in range(len(hex_color_array)):
         hex_color_array[i] = '#'+hex_color_array[i]
         
-We can now use these hex codes when specifying the line color.
+We can now use these hex codes when specifying the plot line color.
 
     fig = plt.figure(figsize=(6,6))
     ax = fig.gca()
@@ -83,10 +83,14 @@ We can now use these hex codes when specifying the line color.
     ax.plot([0,1],[0,3],color=hex_color_array[2],linewidth=5);  #<- set custom color
     ax.plot([0,1],[0,4],color=hex_color_array[3],linewidth=5);  #<- set custom color
     
+<img src=figures/pngs_for_readme/color_fig1.png width="500">
+
+<br/>
+    
     
 ### Set colormaps
 
-To specify a custom colormap in Python we must first turn our hex color array into a decimal color array
+To specify a custom colormap in Python we must first turn our hex color array into an rgb array and then a decimal color array.
 
     dec_color_array = [];
     for i in range(len(hex_color_array)):
@@ -99,4 +103,13 @@ We can then create a custom colormap from dec_color_array using 'ListedColormap'
     from matplotlib.colors import ListedColormap 
 
     custom_colormap = ListedColormap(dec_color_array)
+    
+Now we can generate the figure, setting cmap=custom_colormap
+
+    fig = plt.figure(figsize=(10,8))
+    ax = fig.gca(projection='3d')
+    surf = ax.plot_surface(X, Y, Z,cmap=custom_colormap, #<- using custom colormap
+                           linewidth=0, antialiased=False)
+                           
+   <img src=figures/pngs_for_readme/color_fig2.png width="500">
 
