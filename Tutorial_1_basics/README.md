@@ -50,7 +50,7 @@ These scripts generate the subfigures
     demo_fig1.pdf
     demo_fig2.pdf
     
-stored in the folder Tutorial 1 - basics/figures.
+stored in the folder [Tutorial_1_basics/figures](figures).
 
 <br/>
 
