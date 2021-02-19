@@ -39,9 +39,9 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 ## Step 4 &ndash; convert hex array to a usable color format for Matlab or Python plots
 
-### Matlab directions
+## Matlab directions
 
-#### Use Matlab package [hex2rgb](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb) to convert hex array to an RGB array
+### Use Matlab package [hex2rgb](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb) to convert hex array to an RGB array
   
     hex_color_array = reshape(hex_color_array,[],1);  % reshape to Nx1 color array
     hex_color_array = convertStringsToChars(hex_color_array);  % convert string array to character array
@@ -49,7 +49,7 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 <br/>
 
-#### use RGB color array for colormap or color palette
+### use RGB color array for colormap or color palette
 
     s = surf(X,Y,Z);
     colormap(rgb_color_array); 
@@ -66,15 +66,37 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 <br/>
 
-### Python directions
+## Python directions
 
-#### Set color palettes
+### Set color palettes
 Individual hex colors can be specified in matplotlib plots. However, we must tweek the hex format first adding a '#' symbol before each hex string.
 
     for i in range(len(hex_color_array)):
         hex_color_array[i] = '#'+hex_color_array[i]
-    
-    
-#### Set colormaps
+        
+We can now use these hex codes when specifying the line color.
 
+    fig = plt.figure(figsize=(6,6))
+    ax = fig.gca()
+    ax.plot([0,1],[0,1],color=hex_color_array[0],linewidth=5);  #<- set custom color
+    ax.plot([0,1],[0,2],color=hex_color_array[1],linewidth=5);  #<- set custom color
+    ax.plot([0,1],[0,3],color=hex_color_array[2],linewidth=5);  #<- set custom color
+    ax.plot([0,1],[0,4],color=hex_color_array[3],linewidth=5);  #<- set custom color
+    
+    
+### Set colormaps
+
+To specify a custom colormap in Python we must first turn our hex color array into a decimal color array
+
+    dec_color_array = [];
+    for i in range(len(hex_color_array)):
+        dec_color_array.append(rgb_to_dec(hex_to_rgb(hex_color_array[i])))
+
+    dec_color_array = np.asarray(dec_color_array)
+
+We can then create a custom colormap from dec_color_array using 'ListedColormap'
+
+    from matplotlib.colors import ListedColormap 
+
+    custom_colormap = ListedColormap(dec_color_array)
 
