@@ -35,13 +35,17 @@ This tutorial uses the following programs
 
 <br/>
 
-## Step 1 &ndash; Create subfigures in Matlab
+## Step 1 &ndash; Create subfigures in Matlab or Python
 
-Run the script
+If using Matlab, run the script
 
     demo_make_figs.m
+    
+If using Python, run the script
+
+    demo_make_figs.ipynb
   
-which creates subfigures 
+These scripts generate the subfigures
 
     demo_fig1.pdf
     demo_fig2.pdf
