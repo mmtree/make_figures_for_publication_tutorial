@@ -60,7 +60,7 @@ Inkscape tutorial is in the file
     
     demo_panel.svg
     
-stored in the folder Tutorial 1 - basics/figures. This file must be opened using Inkscape and covers how to import .pdfs into Inkscape and create a figure panel.
+stored in the folder [Tutorial_1_basics/figures](figures). This file must be opened using Inkscape and covers how to import .pdfs into Inkscape and create a figure panel.
 
 <br/>
 
