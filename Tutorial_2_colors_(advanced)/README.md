@@ -39,6 +39,8 @@ Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex ar
 
 ## Step 4 &ndash; convert hex array to a usable color format for Matlab or Python plots
 
+<br/>
+
 ## Matlab directions
 
 ### Use Matlab package [hex2rgb](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb) to convert hex array to an RGB array
