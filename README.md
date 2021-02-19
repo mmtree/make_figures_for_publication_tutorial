@@ -16,7 +16,7 @@ The first tutorial details step-by-step instructions for creating this template 
 
 ## [Tutorial 2 &ndash; colors (advanced)](Tutorial_2_colors_(advanced)/)
 
-The second tutorial covers how to find and use professional color palettes in you figures instead of a Matlab colormap.
+The second tutorial covers how to find and use professional color palettes in you figures instead of a Matlab or Python colormap.
 
 <img src="Tutorial_2_colors_(advanced)/figures/pngs_for_readme/colors.png" width="500">
 
