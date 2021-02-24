@@ -66,7 +66,7 @@ stored in the folder [Tutorial_1_basics/figures](figures). This file must be ope
 
 ### Open Inkscape
 
-Inkscape has many features. The most important tools on the left are "Align and Distribute", "Fill and Stroke", and "Layers". The most important tools on the left are "Select", "Create rectangles and squares", "Create circles, ellipses, and arcs", "Draw Bezier curves and straight lines", and "Create and edit text object". The most important tabs at the top are "Object" and "Extensions". We will cover what each of these tools are used for below.
+Inkscape has many features. The most important tools on the right are "Align and Distribute", "Fill and Stroke", and "Layers". The most important tools on the left are "Select", "Create rectangles and squares", "Create circles, ellipses, and arcs", "Draw Bezier curves and straight lines", and "Create and edit text object". The most important tabs at the top are "Object" and "Extensions". We will cover what each of these tools are used for below.
 
 <img src="figures/pngs_for_readme/open_inkscape.png" width="900">
 
