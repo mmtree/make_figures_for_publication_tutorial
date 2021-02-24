@@ -72,7 +72,7 @@ Inkscape has many features. The most important tools on the right are "Align and
 
 <br/>
 
-### Inkscape step 1 &ndash; import pdfs
+### Inkscape step 1 &ndash; import pdf subfigures
 
 **Import images:** First we import the pdf subfigures generated using Matlab or Python. Make sure the figures you are importing do not have too large of a file size. Working with large image files in Inkscape will make Inkscape very slow and even crash. If you have large image files, try making the files smaller before importing. One way to make files smaller is to plot few points when generating the figure in Matlab.
 
