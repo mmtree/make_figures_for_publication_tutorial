@@ -27,6 +27,7 @@ These plots can be generated in Python by running the script
 
 Click [here](https://coolors.co/gradient-palette/432371-faae7b?number=21
 ) for this particular gradient palette.
+
 Once you have chosen a palette, select Export -> Code ->  Array. Copy the hex array and paste into Matlab as a string array.
 
 <img src=figures/pngs_for_readme/gradient_array_export.png width="500">
